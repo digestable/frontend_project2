@@ -1,0 +1,180 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+.container{
+    background-color:bisque;
+    max-width: 900px;
+    min-width: 900px;
+    height: 400px;
+    padding: 0;
+    margin-top: 10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2% 2% 2% 2%;
+}
+
+/* Car icons */
+.car_img{
+    width: 25%;
+    padding-bottom: 10px;
+}
+.colheader{
+    font-weight: 700;
+    font-family: Big Shoulders Display;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col_para{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 20px;
+    height: 150px;
+}
+
+.sedancol{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0% 0% 2%;
+    padding: 50px;
+    font-family: Lexend Deca;
+}
+
+.suvcol{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0% 0% 0% 0%;
+    padding: 50px;
+    font-family: Lexend Deca;
+}
+
+
+.luxurycol{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0% 2% 2% 0%;
+    padding: 50px;
+    font-family: Lexend Deca;
+}
+
+.carbutton{
+    width: 70%;
+    height: fit-content;
+    flex-wrap: wrap;
+    background-color: white !important;
+    border-radius: 17px;
+}
+.sedanbutton{
+    color:  hsl(31, 77%, 52%);
+    border-color: white !important
+  }
+.suvbutton{
+    color:  hsl(184, 100%, 22%);
+    border-color: white !important
+  }
+
+.luxurybutton{
+    color:  hsl(179, 100%, 13%);
+    border-color: white !important
+}
+
+.attribution {
+    font-size: 11px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+.footertext{
+    position: absolute; 
+    bottom: 5px; 
+    background-color: (0, 0%, 95%);
+  }
+
+  @media screen and (max-width: 900px) {
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 100%;
+      min-width: 100%;
+      margin-top: 0%;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      right: 0;
+      border-radius: 0%;
+    }
+    
+    .car_img{
+        width: 10%;
+        min-width: 100px;
+        padding-bottom: 10px;
+    }
+
+    .sedancol{
+        width: 100%;
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 2% 2% 0% 0%;
+        padding: 50px;
+        font-family: Lexend Deca;
+    }
+
+    .suvcol{
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 0% 0% 0% 0%;
+        padding: 50px;
+        font-family: Lexend Deca;
+    }
+
+
+    .luxurycol{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0% 0% 2% 2%;
+        padding: 50px;
+        font-family: Lexend Deca;
+    }
+
+    .col_para{
+        width: 100%;
+        font-weight: 400;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-bottom: 20px;
+        height: 150px;
+    }
+
+    .carbutton{
+        width: 20%;
+        min-width: 130px;
+        height: fit-content;
+        flex-wrap: wrap;
+        background-color: white !important;
+        border-radius: 17px;
+    }
+    .sedanbutton{
+        color:  hsl(31, 77%, 52%);
+        border-color: white !important
+    }
+    .suvbutton{
+        color:  hsl(184, 100%, 22%);
+        border-color: white !important
+    }
+
+    .luxurybutton{
+        color:  hsl(179, 100%, 13%);
+        border-color: white !important
+    }
+
+
+}
+
